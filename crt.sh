@@ -6,7 +6,7 @@ read target
 # Target domain received from user, now starting the process
 echo "Target domain: ${target}. DNS s are starting to be received..."
 
-# ASCII sanatını ekliyoruz
+
 echo "               _ _       \ \ " 
 echo "    .-\"\"\"\"\"-. / \_> /\    |/ "
 echo "   /         \.'\`  \`',.--//"
