@@ -1,6 +1,6 @@
 #!/bin/bash
 # Receiving target domain from user
-echo "Lütfen hedef domain (target) girin (örn: example.com):"
+echo "Please target domain (target) enter (: example.com):"
 read target
 
 # Target domain received from user, now starting the process
@@ -23,5 +23,5 @@ curl -s "https://crt.sh/?q=%25.${target}&output=json" | jq -r '.[].name_value' |
 # Notify the user when the process is completed
 echo "DNS s are recorded in the sub.txt file."
 
-# Sonuç dosyasını kontrol etme
+# Checking the result file
 echo "You can find the results in the DNS.txt file."
